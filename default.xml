@@ -32,7 +32,6 @@
 <project name="tf-third-party-packages" remote="github" revision="master" path="third_party/contrail-third-party-packages" />
 <!-- Deployers based on scratch -->
 <project name="tf-charms" remote="github" revision="master" path="tf-charms"/>
-<project name="tf-helm-deployer" remote="github" revision="master" path="tf-helm-deployer"/>
 <project name="tf-ansible-deployer" remote="github" path="tf-ansible-deployer"/>
 <project name="tf-kolla-ansible" remote="github" revision="master" path="tf-kolla-ansible"/>
 <project name="tf-container-builder" remote="github"  path="tf-container-builder"/>
