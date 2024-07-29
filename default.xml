@@ -3,39 +3,39 @@
 
 <default revision="refs/heads/master" remote="github"/>
 
-<project name="tf-build" remote="github" path="tools/build">
+<project name="tf-build" remote="github" revision="R24.1" path="tools/build">
   <copyfile src="SConstruct" dest="SConstruct"/>
 </project>
-<project name="tf-controller" remote="github" path="controller"/>
-<project name="tf-vrouter" remote="github" path="vrouter"/>
-<project name="tf-third-party" remote="github" path="third_party"/>
-<project name="tf-common" remote="github" path="src/contrail-common"/>
-<project name="tf-analytics" remote="github" path="src/contrail-analytics"/>
-<project name="tf-api-client" remote="github" path="src/contrail-api-client"/>
-<project name="tf-packages" remote="github" path="tools/packages"/>
-<project name="tf-nova-vif-driver" remote="github" path="openstack/nova_contrail_vif"/>
-<project name="tf-neutron-plugin" remote="github" path="openstack/neutron_plugin"/>
-<project name="tf-heat-plugin" remote="github" path="openstack/contrail-heat"/>
-<project name="tf-web-controller" remote="github" path="contrail-web-controller"/>
-<project name="tf-web-core" remote="github" path="contrail-web-core"/>
-<project name="tf-webui-third-party" remote="github" path="contrail-webui-third-party"/>
-<project name="tf-tripleo-puppet" remote="github" path="openstack/contrail-tripleo-puppet"/>
-<project name="tf-deployment-test" remote="github" path="tf-deployment-test"/>
+<project name="tf-controller" remote="github" revision="R24.1" path="controller"/>
+<project name="tf-vrouter" remote="github" revision="R24.1" path="vrouter"/>
+<project name="tf-third-party" remote="github" revision="R24.1" path="third_party"/>
+<project name="tf-common" remote="github" revision="R24.1" path="src/contrail-common"/>
+<project name="tf-analytics" remote="github" revision="R24.1" path="src/contrail-analytics"/>
+<project name="tf-api-client" remote="github" revision="R24.1" path="src/contrail-api-client"/>
+<project name="tf-packages" remote="github" revision="R24.1" path="tools/packages"/>
+<project name="tf-nova-vif-driver" remote="github" revision="R24.1" path="openstack/nova_contrail_vif"/>
+<project name="tf-neutron-plugin" remote="github" revision="R24.1" path="openstack/neutron_plugin"/>
+<project name="tf-heat-plugin" remote="github" revision="R24.1" path="openstack/contrail-heat"/>
+<project name="tf-web-controller" remote="github" revision="R24.1" path="contrail-web-controller"/>
+<project name="tf-web-core" remote="github" revision="R24.1" path="contrail-web-core"/>
+<project name="tf-webui-third-party" revision="R24.1" remote="github" path="contrail-webui-third-party"/>
+<project name="tf-tripleo-puppet" remote="github" revision="R24.1" path="openstack/contrail-tripleo-puppet"/>
+<project name="tf-deployment-test" remote="github" revision="master" path="tf-deployment-test"/>
 <!-- Used by OpenContrail CI jobs -->
 <project name="tf-dpdk" remote="github" revision="contrail_dpdk_19_11" path="third_party/dpdk" />
 <!-- contrail-specs repository contains per-branch directories, use master revision explicitly -->
 <project name="tf-specs" remote="github" revision="master" path="contrail-specs" />
-<project name="tf-test" remote="github" path="third_party/contrail-test" />
+<project name="tf-test" remote="github" revision="R24.1" path="third_party/contrail-test" />
 <!-- Contrail containers -->
-<project name="tf-container-builder" remote="github" path="contrail-container-builder" />
+<project name="tf-container-builder" remote="github" revision="R24.1" path="contrail-container-builder" />
 <!-- Contrail third party packages -->
 <project name="tf-third-party-packages" remote="github" revision="master" path="third_party/contrail-third-party-packages" />
 <!-- Deployers based on scratch -->
 <project name="tf-charms" remote="github" revision="master" path="tf-charms"/>
-<project name="tf-ansible-deployer" remote="github" path="tf-ansible-deployer"/>
+<project name="tf-ansible-deployer" remote="github" revision="R24.1" path="tf-ansible-deployer"/>
 <project name="tf-kolla-ansible" remote="github" revision="master" path="tf-kolla-ansible"/>
-<project name="tf-container-builder" remote="github"  path="tf-container-builder"/>
+<project name="tf-container-builder" remote="github" revision="R24.1" path="tf-container-builder"/>
 <project name="tf-tripleo-heat-templates" remote="github" revision="stable/queens" path="tf-tripleo-heat-templates"/>
-<project name="tf-operator" remote="github" revision="master" path="tf-operator"/>
+<project name="tf-operator" remote="github" revision="R24.1" path="tf-operator"/>
 
 </manifest>
