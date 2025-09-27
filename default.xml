@@ -12,14 +12,12 @@
 <project name="tf-common" remote="github" path="src/contrail-common"/>
 <project name="tf-analytics" remote="github" path="src/contrail-analytics"/>
 <project name="tf-api-client" remote="github" path="src/contrail-api-client"/>
-<project name="tf-packages" remote="github" path="tools/packages"/>
 <project name="tf-nova-vif-driver" remote="github" path="openstack/nova_contrail_vif"/>
 <project name="tf-neutron-plugin" remote="github" path="openstack/neutron_plugin"/>
 <project name="tf-heat-plugin" remote="github" path="openstack/contrail-heat"/>
 <project name="tf-web-controller" remote="github" path="contrail-web-controller"/>
 <project name="tf-web-core" remote="github" path="contrail-web-core"/>
 <project name="tf-webui-third-party" remote="github" path="contrail-webui-third-party"/>
-<project name="tf-tripleo-puppet" remote="github" path="openstack/contrail-tripleo-puppet"/>
 <project name="tf-deployment-test" remote="github" path="tf-deployment-test"/>
 <!-- Used by OpenContrail CI jobs -->
 <project name="tf-dpdk" remote="github" revision="contrail_dpdk_19_11" path="third_party/dpdk" />
